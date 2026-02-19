@@ -1,4 +1,9 @@
 import java.util.*;
+
+
+//  Trapping Rain Water: Calculate trapped water using left/right max height pointers.
+
+
 class Bagoftokens {
     public static void main(String[] args){
         int[] tokens={100,200,300,400,500};

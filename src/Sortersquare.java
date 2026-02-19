@@ -1,4 +1,7 @@
 import java.util.*;
+
+// Squares of a Sorted Array: Sort an array of squares in O(n) time.
+
 class Sortersquare {
     public static void main(String[] args){
         int[] nums={-4,-2,5,0,3,7,9};

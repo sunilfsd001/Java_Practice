@@ -1,5 +1,8 @@
 import java.util.*;
 class Foursum {
+
+//    4Sum: Find unique quadruplets that sum to a target.
+
     public static void main(String[] args){
         int[] nums={1,0,-1,0,-2,2};
         int target=0;
