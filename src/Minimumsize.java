@@ -17,7 +17,7 @@ public class Minimumsize{
 
         System.out.print(minSubArrayLen(arr,target));
     }
-    public  static int minSubArrayLen(int[] nums, int target) {
+    static int minSubArrayLen(int[] nums, int target) {
         int min=Integer.MAX_VALUE;
         int sum=0;
         int start=0;
