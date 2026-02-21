@@ -1,0 +1,160 @@
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
++++ /dev/null	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
+@@ -1,10 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Ignored default folder with query files
+-/queries/
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+Index: .gitignore
+===================================================================
+diff --git a/.gitignore b/.gitignore
+deleted file mode 100644
+--- a/.gitignore	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
++++ /dev/null	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
+@@ -1,30 +0,0 @@
+-### IntelliJ IDEA ###
+-out/
+-!**/src/main/**/out/
+-!**/src/test/**/out/
+-.kotlin
+-
+-### Eclipse ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-.sts4-cache
+-bin/
+-!**/src/main/**/bin/
+-!**/src/test/**/bin/
+-
+-### NetBeans ###
+-/nbproject/private/
+-/nbbuild/
+-/dist/
+-/nbdist/
+-/.nb-gradle/
+-
+-### VS Code ###
+-.vscode/
+-
+-### Mac OS ###
+-.DS_Store
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
++++ /dev/null	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/untitled.iml" filepath="$PROJECT_DIR$/untitled.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
++++ /dev/null	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" default="true" project-jdk-name="25" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: src/PermutationString.java
+===================================================================
+diff --git a/src/PermutationString.java b/src/PermutationString.java
+deleted file mode 100644
+--- a/src/PermutationString.java	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
++++ /dev/null	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
+@@ -1,32 +0,0 @@
+-import java.util.*;
+-public class PermutationString {
+-    public static void main(String[] args){
+-        Scanner scan = new Scanner (System.in);
+-        System.out.print("Enter the String : ");
+-        String s2= scan.nextLine();
+-        System.out.print("Enter the String : ");
+-        String s1= scan.nextLine();
+-        System.out.println("The String found:"+checkInclusion(s1,s2));
+-    }
+-    public static boolean checkInclusion(String s1, String s2) {
+-        int[] s1feq=new int[26];
+-        int[] curfeq=new int[26];
+-
+-        for(char c:s1.toCharArray())
+-            s1feq[c-'a']++;
+-
+-        for(int i=0;i<s2.length();i++){
+-            curfeq[s2.charAt(i)-'a']++;
+-
+-            if(i>s1.length()-1){
+-                curfeq[s2.charAt(i-s1.length())-'a']--;
+-            }
+-
+-            if(Arrays.equals(s1feq,curfeq)){
+-                return true;
+-            }
+-
+-        }
+-        return false;
+-    }
+-}
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
++++ /dev/null	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: untitled.iml
+===================================================================
+diff --git a/untitled.iml b/untitled.iml
+deleted file mode 100644
+--- a/untitled.iml	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
++++ /dev/null	(revision 9f01410fb9e7ebe7f74673479a66c75cc17d9fe6)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file

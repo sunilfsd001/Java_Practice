@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="999f65a2-dd8e-4b2c-8e0b-e3a5849c5db7" name="Changes" comment="Sliding window problem for Permutation in String" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="leetcode" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sunilfsd001&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sunilfsd001/Java_Practice.git&quot;,
+    &quot;accountId&quot;: &quot;8c202ed7-edbc-4bec-8555-e772f0d2f9f7&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="39nWfOn43SS4a9giRPMEjK0jQQ8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnagramOfString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bagoftokens.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Consec1sIII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IcecreamCones.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Longestsubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxConsective1s.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinSubArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Minimumsize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PermutationString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RushToExam.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubAaddB.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/Java_Practice/src&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\Java_Practice\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\Java_Practice\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Java_Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Java_Practice" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="999f65a2-dd8e-4b2c-8e0b-e3a5849c5db7" name="Changes" comment="" />
+      <created>1771332424045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771332424045</updated>
+      <workItem from="1771332425921" duration="2000" />
+      <workItem from="1771332594579" duration="172000" />
+      <workItem from="1771332791501" duration="337000" />
+      <workItem from="1771343352165" duration="1064000" />
+      <workItem from="1771411596090" duration="540000" />
+      <workItem from="1771413461959" duration="4448000" />
+      <workItem from="1771478231677" duration="16000" />
+      <workItem from="1771478329001" duration="4131000" />
+      <workItem from="1771490512602" duration="6468000" />
+      <workItem from="1771503811082" duration="1451000" />
+      <workItem from="1771510076848" duration="72000" />
+      <workItem from="1771656524593" duration="3524000" />
+      <workItem from="1771665442235" duration="199000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1771332678877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771332678877</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding finished programs">
+      <option name="closed" value="true" />
+      <created>1771333117825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771333117826</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding finished programs from two pointers concept.">
+      <option name="closed" value="true" />
+      <created>1771343623089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771343623089</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding finished programs from two pointers concept.">
+      <option name="closed" value="true" />
+      <created>1771343648964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771343648964</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding finished programs from Sliding window concept.">
+      <option name="closed" value="true" />
+      <created>1771344008983</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771344008983</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Today's Leetcode problem 18th feb">
+      <option name="closed" value="true" />
+      <created>1771414371239</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771414371239</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sliding window problem 19th feb">
+      <option name="closed" value="true" />
+      <created>1771415117422</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771415117422</updated>
+    </task>
+    <task id="LOCAL-00008" summary="19th feb Leetcode problem">
+      <option name="closed" value="true" />
+      <created>1771478966575</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771478966575</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Leet Code problem">
+      <option name="closed" value="true" />
+      <created>1771479581156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771479581156</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Leet Code problem">
+      <option name="closed" value="true" />
+      <created>1771479618255</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771479618255</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Leet Code problem">
+      <option name="closed" value="true" />
+      <created>1771479649791</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771479649791</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Questions">
+      <option name="closed" value="true" />
+      <created>1771480537276</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771480537276</updated>
+    </task>
+    <task id="LOCAL-00013" summary="18th feb CodeChef problems">
+      <option name="closed" value="true" />
+      <created>1771495471672</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771495471673</updated>
+    </task>
+    <task id="LOCAL-00014" summary="12th feb CodeChef problems">
+      <option name="closed" value="true" />
+      <created>1771495658310</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771495658310</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Sliding window problem">
+      <option name="closed" value="true" />
+      <created>1771496468687</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1771496468687</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Leetcode problem">
+      <option name="closed" value="true" />
+      <created>1771497355128</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1771497355128</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Used Enhanced for loop instead of normal for loop">
+      <option name="closed" value="true" />
+      <created>1771497438516</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1771497438516</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Sliding window problem for longest consective 1s with k 0s">
+      <option name="closed" value="true" />
+      <created>1771502614163</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1771502614163</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Sliding window problem for Permutation in String">
+      <option name="closed" value="true" />
+      <created>1771665028249</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1771665028249</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="SlidingWindow" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Adding finished programs" />
+    <MESSAGE value="Adding finished programs from two pointers concept." />
+    <MESSAGE value="Adding finished programs from Sliding window concept." />
+    <MESSAGE value="Today's Leetcode problem 18th feb" />
+    <MESSAGE value="Sliding window problem 19th feb" />
+    <MESSAGE value="19th feb Leetcode problem" />
+    <MESSAGE value="Leet Code problem" />
+    <MESSAGE value="Added Questions" />
+    <MESSAGE value="18th CodeChef problems" />
+    <MESSAGE value="18th feb CodeChef problems" />
+    <MESSAGE value="12th feb CodeChef problems" />
+    <MESSAGE value="Sliding window problem" />
+    <MESSAGE value="Leetcode problem" />
+    <MESSAGE value="Used Enhanced for loop instead of normal for loop" />
+    <MESSAGE value="Sliding window problem for longest consective 1s with k 0s" />
+    <MESSAGE value="Sliding window problem for Permutation in String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sliding window problem for Permutation in String" />
+  </component>
+</project>

@@ -1,0 +1,31 @@
+Index: src/Minimumsize.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.*;\r\npublic class Minimumsize{\r\n    public static void main(String[] args){\r\n        Scanner scan=new Scanner(System.in);\r\n\r\n        System.out.print(\"Enter the size of array : \");\r\n        int size=scan.nextInt();\r\n\r\n        int[] arr=new int[size];\r\n\r\n        System.out.println(\"Enter the array elements : \");\r\n        for(int i=0;i<size;i++)\r\n            arr[i]=scan.nextInt();\r\n\r\n        System.out.println(\"Enter the target : \");\r\n        int target=scan.nextInt();\r\n\r\n        System.out.print(minSubArrayLen(arr,target));\r\n    }\r\n    static int minSubArrayLen(int[] nums, int target) {\r\n        int min=Integer.MAX_VALUE;\r\n        int sum=0;\r\n        int start=0;\r\n        for(int end=0;end<nums.length;end++){\r\n            sum+=nums[end];\r\n            while(sum>=target){\r\n                min=Math.min(min,end-start+1);\r\n                sum-=nums[start];\r\n                start++;\r\n            }\r\n        }\r\n        return min == Integer.MAX_VALUE ? 0 : min;\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Minimumsize.java b/src/Minimumsize.java
+--- a/src/Minimumsize.java	(revision 4d0dd9e9e0f7a2962c397fafa7d3364f93d3e33d)
++++ b/src/Minimumsize.java	(date 1771480024674)
+@@ -1,11 +1,11 @@
+ import java.util.*;
+ public class Minimumsize{
+     public static void main(String[] args){
++
+         Scanner scan=new Scanner(System.in);
+ 
+         System.out.print("Enter the size of array : ");
+         int size=scan.nextInt();
+-
+         int[] arr=new int[size];
+ 
+         System.out.println("Enter the array elements : ");
+@@ -19,8 +19,7 @@
+     }
+     static int minSubArrayLen(int[] nums, int target) {
+         int min=Integer.MAX_VALUE;
+-        int sum=0;
+-        int start=0;
++        int sum=0,start=0;
+         for(int end=0;end<nums.length;end++){
+             sum+=nums[end];
+             while(sum>=target){
