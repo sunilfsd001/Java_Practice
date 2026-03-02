@@ -25,6 +25,6 @@ import java.util.*;public class PascalTriangleII {
             }
             list.add(row);
         }
-        return list.get(list.size()-1 );
+        return list.getLast();
     }
 }
