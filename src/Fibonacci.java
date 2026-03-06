@@ -1,6 +1,12 @@
+import java.util.*;
 public class Fibonacci {
     public static void main(String[] args) {
-        System.out.println(fibonacci(10));
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the terms to print Fibonacci : ");
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++) {
+            System.out.println(fibonacci(i));
+        }
     }
     static int fibonacci(int n){
         if(n==0 || n==1)return n;
