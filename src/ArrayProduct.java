@@ -2,6 +2,8 @@ import java.util.*;
 class ArrayProduct {
    public static void main(String[] args) {
         int[] nums={1,2,3,4};
+
+        // Order n
         //     int len=nums.length;
         //     int[] preFix=new int[len];
         //     preFix[0]=nums[0];
@@ -21,6 +23,9 @@ class ArrayProduct {
         //     return nums;
         // }
 
+
+//     Order n with constant space
+
             int[] result = new int[nums.length];
             Arrays.fill(result, 1);
             int left = 1;
@@ -35,4 +40,19 @@ class ArrayProduct {
             }
         System.out.println(Arrays.toString(result));
         }
+
+
+//      Order n^2 
+
+        // int[] ans=new int[len];
+        // for(int i=0;i<len;i++){
+        //     int product=1;
+        //     for(int j=0;j<len;j++){
+        //         if(j==i)continue;
+        //         product*=nums[j];
+        //     }
+        //     ans[i]=product;
+        // }
+        // return ans;
+        // System.out.println(Arrays.toString(ans));
     }
