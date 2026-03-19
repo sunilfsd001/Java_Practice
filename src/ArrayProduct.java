@@ -29,6 +29,7 @@ class ArrayProduct {
             int[] result = new int[nums.length];
             Arrays.fill(result, 1);
             int left = 1;
+            
             for (int i = 0; i < nums.length; i++) {
                 result[i] *= left;
                 left *= nums[i];
