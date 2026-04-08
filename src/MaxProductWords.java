@@ -1,3 +1,5 @@
+import java.util.*;
+
 class MaxProductWords {
     public static void main(String[] args) {
         MaxProductWords mpw = new MaxProductWords();

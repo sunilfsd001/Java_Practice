@@ -5,7 +5,7 @@ class ValidMountain{
         System.out.println(validMountainArray(arr));
     }
 
-    public boolean validMountainArray(int[] arr) {
+    static boolean validMountainArray(int[] arr) {
         if(arr.length<3)return false;
 
         int left=0;

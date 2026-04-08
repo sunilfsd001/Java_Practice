@@ -3,7 +3,7 @@ class BeautifulTower{
         int[] heights={5,3,4,1,1};
         System.out.println(maximumSumOfHeights(heights));
     }
-    public long maximumSumOfHeights(int[] maxHeights) {
+    static long maximumSumOfHeights(int[] maxHeights) {
 
 
             int n = maxHeights.length;

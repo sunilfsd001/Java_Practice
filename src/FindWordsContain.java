@@ -1,3 +1,5 @@
+import java.util.*;
+
 class FindWordsContain{
     public static void main(String[] args) {
         String[] words = {"hello", "world", "java", "python"};

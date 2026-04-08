@@ -1,7 +1,7 @@
 class PartitionEqual{
     public static void main(String[] args){
         int[] nums={1,5,11,5};
-        System.out.prinltn(canPartiton(nums));
+        System.out.println(canPartition(nums));
     }
     static boolean canPartition(int[] nums) {
         int sum=0;

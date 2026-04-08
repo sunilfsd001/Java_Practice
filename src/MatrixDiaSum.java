@@ -1,3 +1,4 @@
+import java.util.*;
 class MatrixDiaSum{
     public static void main(String[] args) {
         int[][] matrix = {
@@ -9,7 +10,7 @@ class MatrixDiaSum{
         int sum = diagonalSum(matrix);
         System.out.println("The sum of the diagonal elements is: " + sum);
     }
-    public static int diagonalSum(int[][] matrix) {
+    public static int diagonalSum(int[][] mat) {
         int pSum=0;
         int sSum=0;
         for(int i=0;i<mat.length;i++){

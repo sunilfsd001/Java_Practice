@@ -1,10 +1,11 @@
+import java.util.*;
 class DiagonalTraverse{
     public static void main(String[] args) {
         int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
         int[] result=findDiagonalOrder(matrix);
             System.out.print(Arrays.toString(result));
         }
-    public static int[] findDiagonalOrder(int[][] matrix) {
+    public static int[] findDiagonalOrder(int[][] mat) {
         int row=mat.length;
         int col=mat[0].length;
         Map<Integer,List<Integer>> map=new HashMap<>();

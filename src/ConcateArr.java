@@ -7,13 +7,13 @@ class ConcateArr{
             System.out.print(num + " ");
         }
     }
-        static int[] getConcatenation(int[] nums) {
-        int[] ans=new int[nums.length*2];
-        for(int i=0;i<nums.length;i++){
-            ans[i]=nums[i];
+        static int[] getConcatenation(int[] nums1,int[] nums2) {
+        int[] ans=new int[nums1.length*2];
+        for(int i=0;i<nums1.length;i++){
+            ans[i]=nums1[i];
         }
-        for(int i=0;i<nums.length;i++){
-            ans[nums.length+i]=nums[i];
+        for(int i=0;i<nums2.length;i++){
+            ans[nums2.length+i]=nums2[i];
         }
         return ans;
     }

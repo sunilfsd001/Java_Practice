@@ -1,10 +1,12 @@
+import java.util.*;
 class SortMatrixDiagonally{
     public static void main(String[] args){
         int[][] mat={ {5,12,3},
                       {24, 0, 6},
                       {50,18,6},
                       {4, 5, 1}};
-        diagonalSort(mat);
+        for(int[] x:diagonalSort(mat))
+            System.out.println(Arrays.toString(x));
     }
     static int[][] diagonalSort(int[][] mat) {
         Map<Integer,List<Integer>> map=new HashMap<>();

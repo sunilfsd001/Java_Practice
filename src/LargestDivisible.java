@@ -1,9 +1,10 @@
+import java.util.*;
 class LargestDivisible{
     public static void main(String[] args){
         int[] nums={1,2,3};
         System.out.println(largestDivisibleSubset(nums));
     }
-    public List<Integer> largestDivisibleSubset(int[] nums) {
+    public static List<Integer> largestDivisibleSubset(int[] nums) {
 
         int n = nums.length;
         int[] dp = new int[n];

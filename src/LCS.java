@@ -1,5 +1,5 @@
 class LCS{
-    public static void main(Strign[] args){
+    public static void main(String[] args){
         System.out.println(longestCommonSubsequence("abcde","ace"));
     }
     static int longestCommonSubsequence(String text1, String text2) {

@@ -1,3 +1,5 @@
+import java.util.*;
+
 class SpiralMatrix{
     public static void main(String[] args) {
         SpiralMatrix sm=new SpiralMatrix();

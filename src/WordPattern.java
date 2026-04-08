@@ -1,10 +1,11 @@
+import java.util.*;
 class WordPattern{
     public static void main(String[] args) {
         String pattern = "abba";
         String s = "dog cat cat dog";
         System.out.println(wordPattern(pattern, s));
     }
-    public boolean wordPattern(String pattern, String s) {
+    static boolean wordPattern(String pattern, String s) {
         String[] words = s.split(" ");
         
         if (words.length != pattern.length()) return false;
